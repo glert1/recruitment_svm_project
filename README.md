@@ -68,12 +68,12 @@ This will:
 #### FastAPI Web Service
 Start the FastAPI service:
 ```bash
-uvicorn src.fastapi_service:app --reload
+uvicorn src.fastapi_service:app --reload --port 8002
 ```
 
 Access the Swagger UI documentation at:
 ```
-http://localhost:8000/docs
+http://localhost:8002/docs
 ```
 
 Make predictions using the `/predict` endpoint with the following JSON format:
