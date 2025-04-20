@@ -44,6 +44,7 @@ cd recruitment_svm_project
 ```bash
 pip install -r requirements.txt
 ```
+or you can just run the install_requirements.py
 
 ## Usage
 
